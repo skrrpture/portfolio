@@ -216,4 +216,26 @@ li {
   }
 }
 
+.logo {
+  font-family: var(--font-display);     /* 이미 쓰는 serif 계열 */
+  font-size: 2.5rem;                     /* 크고 존재감 있게 */
+  font-weight: 600;
+  color: var(--deep-red);               /* Jennie처럼 붉은 로고 */
+  padding-left: 2rem;
+  transform: skewX(-5deg);              /* 약간 비틀어서 감성 추가 */
+  line-height: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;   /* 로고 왼쪽, 메뉴 오른쪽 */
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem 2rem;
+  z-index: 10;
+}
+
 
