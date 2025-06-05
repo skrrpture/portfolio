@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solo Artist Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 상단 메뉴 -->
+  <header class="header">
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- 전체화면 배경 영상 -->
+  <section id="home" class="hero-video">
+    <video autoplay muted loop playsinline id="heroVideo">
+      <source src="test-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-text">
+      <h1>Debut Album Title</h1>
+    </div>
+  </section>
+
+  <!-- 나머지 콘텐츠 -->
+  <main class="container">
+
+    <section id="works" class="section fade-section">
+      <h2>Works</h2>
+      <p>A selection of recent music videos, visual projects, and live performance records.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/sample1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/sample2" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="about" class="section fade-section">
+      <h2>About</h2>
+      <p>This debut album weaves elegance and emotion through rich melodies and deep lyrics. Discover the artist's journey through music that speaks to the soul.</p>
+      <ul>
+        <li>Track 1 – Awakening</li>
+        <li>Track 2 – Crimson Tide</li>
+        <li>Track 3 – Midnight Waltz</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section fade-section">
+      <h2>Contact</h2>
+      <p>For booking or inquiries, please email: <a href="mailto:skrrpture@gmail.com">skrrpture@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
